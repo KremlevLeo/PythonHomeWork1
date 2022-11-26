@@ -1,6 +1,6 @@
 # Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти (x и y).
 
-def Result (quater):
+def result_quat (quater):
     if quater == 1:
         print("X>0 ; Y>0")
     if quater == 2:
@@ -11,4 +11,4 @@ def Result (quater):
         print("X>0 ; Y<0")
 
 quater = int(input("Enter number of quater: "))
-Result(quater)
+result_quat(quater)
