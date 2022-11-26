@@ -1,6 +1,6 @@
 # Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 
-def Truth ():
+def truth ():
     result = 0
     for n in range(0, 8):
         num = bin(n)
@@ -19,4 +19,4 @@ def Truth ():
     else:
         return print(False)
 
-Truth()
+truth()
